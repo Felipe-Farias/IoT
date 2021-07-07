@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Felipe Farías Espinoza</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <style media="screen">
+            html, body{
+                height: 100%;
+            }
+            body{
+                display: flex;
+                align-items: center;
+                background: #34495e;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row justify-content align-self-center">
+                
+                <h1 id="alerta"> </h1>
+
+                <div class="card">
+                    <h1 id="humo" class="display-1 p-4"></h1>
+                </div>
+            </div>
+        </div>
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/main.js"></script>
+
+
+    </body>
+</html>
